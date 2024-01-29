@@ -33,7 +33,7 @@ public class Cockroach {
         // pick a random move from possible moves
         Direction randomDirection = getRandomElement(possibleMoves);
         movesMap.put(movesMap.isEmpty() ? 1 : movesMap.size() + 1, randomDirection); // save the chosen direction
-        System.out.println(randomDirection);
+        //System.out.println(randomDirection);
 
         // sorry for using a switch statement, but its only for my enum so hopefully you can forgive me
         switch (randomDirection) {
@@ -100,5 +100,18 @@ public class Cockroach {
         List<Direction> list = new ArrayList<>(set);
         Random random = new Random();
         return list.get(random.nextInt(list.size()));
+    }
+    public TreeMap<Integer, Direction> getMovesMap() {
+        return movesMap;
+    }
+
+    public String getMovesString() {
+        StringBuilder builder = new StringBuilder();
+        for (Direction value : getMovesMap().values()) {
+            builder.append(value.toString());
+            builder.append(",");
+        }
+        builder.deleteCharAt(builder.length() - 1); // delete last ','
+        return builder.toString();
     }
 }
