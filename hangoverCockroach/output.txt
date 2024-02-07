@@ -1,11 +1,11 @@
 __________ Values __________
-Room Size: 2, 6
-Number of simulations: 5000
-Aspirin Location: 4, 9
-Water Location: 1, 1
+Room Size: 4, 5
+Number of simulations: 100
+Aspirin Location: 7, 9
+Water Location: 1, 2
 
 __________ Averages __________
-Average run time: 131407 nano sec.
-Average moves taken: 136.8406
+Average run time: 3191503 nano sec.
+Average moves taken: 237.6
 
 ONE OR MORE ITEMS NOT FOUND IN ROOM

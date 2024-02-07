@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // this should check if the simulation number is positive but i forgot :)
         System.out.println("How many simulations would you like to run?");
 
         int numSimulations = scanner.nextInt();

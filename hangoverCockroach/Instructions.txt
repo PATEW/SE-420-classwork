@@ -1,0 +1,11 @@
+# Hangover Cockroach (Clay)
+
+## Instructions:
+1. Run the Main.java file.
+2. Input the number of simulations you'd like to run.
+3. Input the output folder/path. you can input either just the file,
+ex: "output.txt" or the full path (which is dependent on your operating system).
+4. Input the room size and coordinates of the water and aspirin.
+5. Check the program console output and it will tell you if the file was
+created or if there was an issue.
+6. If it was made, you can go into the file and view the statistics of the run.
